@@ -26,7 +26,7 @@ function addTask() {
     displayTasks();
   }
 }
-
+//function for task display 
 function displayTasks() {
   todoList.innerHTML = "";
   todo.forEach((item, index) => {

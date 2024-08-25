@@ -38,10 +38,10 @@ body{
     justify-content: space-evenly;
     background-color: rgb(245, 245, 245);
     border-radius: 34px;
-    padding: 3rem;
+    padding: 48px;
     height: 50%;
     width: 60%;
-    box-shadow: 2px 4px 100px;
+    box-shadow: 2px 4px 50px;
     max-width: 30rem;
 }
 h1{
