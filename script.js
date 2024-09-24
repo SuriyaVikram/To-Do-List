@@ -44,7 +44,7 @@ function displayTasks() {
   todoCount.textContent = `${todo.length} items total`;
 }
 
-function editTask(index) {
+/*function editTask(index) {
   const todoItem = document.getElementById(`todo-${index}`);
   const existingText = todo[index].text;
   const inputElement = document.createElement("input");
@@ -61,7 +61,7 @@ function editTask(index) {
     }
     displayTasks();
   });
-}
+}*/
 
 function toggleTask(index) {
   todo[index].disabled = !todo[index].disabled;
